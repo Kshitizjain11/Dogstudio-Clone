@@ -1,1 +1,10 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+@font-face {
+    font-family: "gtsectral";
+    src: url(/fonts/GTSectraDisplay-Bold.woff2);
+}
+ .gtsectral {
+    font-family: "gtsectral";
+    font-weight: 700;
+ }
