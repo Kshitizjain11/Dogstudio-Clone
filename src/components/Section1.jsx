@@ -18,12 +18,12 @@ const Section1 = () => {
         <div className="middle gap-15 text-white flex justify-between items-center">
             <div className="left gtsectral leading-19 text-8xl text-right pt-24 gap-2 flex items-center justify-end text w-1/2 ">
                 {
-                ["We","Make","Good","Shit"].map((elem)=>{
+                ["We","Make","Good","Shit"].map((elem,id)=>{
                     return (
-                        <>
+                        <React.Fragment key={id}>
                         {elem}
                         <br/>
-                        </>
+                        </React.Fragment>
                     )
                 })
                 }

@@ -137,7 +137,7 @@ const Dog = () => {
         const tl = gsap.timeline({
             scrollTrigger:{
                 trigger:"#sec1",
-                endTrigger:"#sec3",
+                endTrigger:"#sec4",
                 start:"top top",
                 end: "bottom bottom",
                 markers:true,
@@ -158,8 +158,8 @@ const Dog = () => {
             y:`-=${Math.PI}`
         },"t1")
         .to(dogModel.current.scene.position,{
-            x:`-=0.4`,
-            z: "+=0.14"
+            x:`-=0.44`,
+            z: "+=0.41"
         },"t1")
     },[])
 
