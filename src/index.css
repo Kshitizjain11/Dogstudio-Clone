@@ -37,37 +37,37 @@ main:has(#sec2 .title:hover)  #canvaselem {
    background: none;
  }
 
-main:has(#sec2 .title[imageT="tomorrowland"]:hover)  #tomorrowland {
+main:has(#sec2 .title[imaget="tomorrowland"]:hover)  #tomorrowland {
    opacity: 100;
-   background: rgb(4, 6, 7);
+   background: #060e24;
  }
 
-main:has(#sec2 .title[imageT="navy-pier"]:hover)  #navy-pier {
+main:has(#sec2 .title[imaget="navy-pier"]:hover)  #navy-pier {
    opacity: 100;
-   background: rgb(4, 6, 7);
+   background: #080b27;
  }
 
-main:has(#sec2 .title[imageT="msi-chicago"]:hover)  #msi-chicago {
+main:has(#sec2 .title[imaget="msi-chicago"]:hover)  #msi-chicago {
    opacity: 100;
-   background: rgb(4, 6, 7);
+   background: #07102f;
  }
  
-main:has(#sec2 .title[imageT="phone"]:hover)  #phone {
+main:has(#sec2 .title[imaget="phone"]:hover)  #phone {
    opacity: 100;
-   background: rgb(4, 6, 7);
+   background: #0b1928;
  }
 
-main:has(#sec2 .title[imageT="kikk"]:hover)  #kikk {
+main:has(#sec2 .title[imaget="kikk"]:hover)  #kikk {
    opacity: 100;
-   background: ;
+   background: #141b76 ;
  }
 
-main:has(#sec2 .title[imageT="kennedy"]:hover)  #kennedy {
+main:has(#sec2 .title[imaget="kennedy"]:hover)  #kennedy {
    opacity: 100;
-   background: rgb(4, 6, 7);
+   background: #192935;
  }
 
-main:has(#sec2 .title[imageT="opera"]:hover)  #opera {
+main:has(#sec2 .title[imaget="opera"]:hover)  #opera {
    opacity: 100;
-   background: rgb(4, 6, 7);
+   background: #5B140A;
  }
