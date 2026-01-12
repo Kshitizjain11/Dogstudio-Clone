@@ -8,3 +8,66 @@
     font-family: "gtsectral";
     font-weight: 700;
  }
+
+ @font-face {
+    font-family: "heebo";
+    src: url(/fonts/Heebo-Thin.woff2);
+ }
+
+ .heebo {
+    font-family: "heebo";
+    font-weight: 500;
+ }
+
+ @font-face {
+    font-family: "gilroy-bold";
+    src: url(/fonts/Gilroy-Bold.woff2);
+ }
+
+ .gilroy-bold {
+    font-family: "gilroy-bold";
+    font-weight: 500;
+ }
+ #canvaselem{
+   transition: all 4s ease-out;
+   
+   
+ }
+main:has(#sec2 .title:hover)  #canvaselem {
+   background: none;
+ }
+
+main:has(#sec2 .title[imageT="tomorrowland"]:hover)  #tomorrowland {
+   opacity: 100;
+   background: rgb(4, 6, 7);
+ }
+
+main:has(#sec2 .title[imageT="navy-pier"]:hover)  #navy-pier {
+   opacity: 100;
+   background: rgb(4, 6, 7);
+ }
+
+main:has(#sec2 .title[imageT="msi-chicago"]:hover)  #msi-chicago {
+   opacity: 100;
+   background: rgb(4, 6, 7);
+ }
+ 
+main:has(#sec2 .title[imageT="phone"]:hover)  #phone {
+   opacity: 100;
+   background: rgb(4, 6, 7);
+ }
+
+main:has(#sec2 .title[imageT="kikk"]:hover)  #kikk {
+   opacity: 100;
+   background: ;
+ }
+
+main:has(#sec2 .title[imageT="kennedy"]:hover)  #kennedy {
+   opacity: 100;
+   background: rgb(4, 6, 7);
+ }
+
+main:has(#sec2 .title[imageT="opera"]:hover)  #opera {
+   opacity: 100;
+   background: rgb(4, 6, 7);
+ }
